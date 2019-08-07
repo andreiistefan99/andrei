@@ -1,0 +1,142 @@
+body,html{
+    background: #bbb;
+}
+
+/*-----Menu-----*/
+.menu ul{
+    list-style-type: none;
+    height: 75px;
+    background: #fff;
+    padding: 0;
+}
+.menu ul li{
+    padding: 25px;
+    float: left;
+    background: white;
+    color:black;
+    border-right: 1px dashed #bbb;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.menu ul li a{
+    text-decoration: none;
+    background: white;
+    color:black;
+    font-family: 'Open Sans';
+}
+.menu ul li:last-child{
+    border-right: none;
+}
+.menu .fas{
+    padding-right: 10px;
+background: white;
+}
+.menu .far{
+    padding-right: 10px;
+    background: white;
+}
+.menu ul li a:hover{
+    color:#FF8C00;
+}
+.menu ul li:hover{
+    border-bottom: 3px solid #FF8C00;
+}
+
+/*-----Card-----*/
+.card{
+    background: #fff;
+}
+.card h1{
+    margin-top:15px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.card h3{
+    color:#ddd;
+    margin:0;
+}
+.bgMedia{
+    text-align: center;
+}
+.socialMedia .fab{
+    padding:10px;
+    border:1px solid black;
+    border-radius:30px;
+}
+.card .socialMedia .fa-facebook-f{
+    padding-right: 13px;
+    padding-left: 13px;
+}
+.card .socialMedia .fa-instagram {
+    padding-right: 11px;
+    padding-left: 11px;
+}
+.card .socialMedia .bgMedia a .fab{
+    text-decoration: none;
+    color: black;
+}
+.card .socialMedia a .fa-snapchat-ghost:hover{
+    background: #fcff46;
+    color:#fff;
+}
+.card .socialMedia a .fa-facebook-f:hover{
+    background: #3a35ff;
+    color:#fff;
+}
+.card .socialMedia a .fa-instagram:hover{
+    background: #9e3eff;
+    color:#fff;
+}
+
+/*--- bordura----*/
+.borderGrey{
+    border-bottom: 1px dashed #bbb;
+}
+/* parallax */
+.parallax{
+    height: 400px;
+    background-image: url("../img/birou.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    margin-top: -340px;
+}
+.content{
+    background: white;
+}
+.content h2{
+    padding: 15px;
+}
+.content .des{
+    margin-top: 15px;
+    color: #aaa;
+}
+.content .description{
+    padding:10px;
+    padding-right: 0;
+    font-size: 16px;
+    font-family: 'Arial';
+    color: black;
+}
+.content h3{
+    text-align: center;
+    font-family: 'Arial';
+}
+.content .text{
+    padding-left:25px;
+}
+.greySection{
+    background: #aaa;
+}
+.outerSkill{
+    border: 1px solid #243c4f;
+    height: 7px;
+    border-radius: 5px;
+}
+.innerSkill{
+    background: #243c4f;
+    height: 5px;
+}
